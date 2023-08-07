@@ -1,0 +1,14 @@
+{{#each listProducts}}
+
+<article class="container">
+    <div class="card-container">
+        <img src="{{thumbnail}}" alt="{{description}}">
+        <h3>{{title}}</h3>
+        <p>{{description}}</p>
+        <p>${{price}}</p>
+        <p>Stock:${{stock}}</p>
+        <p>Product ID:${{id}}</p>
+    </div>
+</article>
+
+{{/each}}
